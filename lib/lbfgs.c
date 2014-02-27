@@ -242,6 +242,11 @@ void lbfgs_parameter_init(lbfgs_parameter_t *param)
     memcpy(param, &_defparam, sizeof(*param));
 }
 
+int testfoo(){
+	
+	return 0;
+}
+
 int lbfgs(
     int n,
     lbfgsfloatval_t *x,
